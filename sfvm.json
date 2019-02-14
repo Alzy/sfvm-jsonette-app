@@ -9,6 +9,16 @@
       }
     },
   "body": {
+  	"header": {
+  		"title": "SFVM",
+  		"menu": {
+  			"text": "Submit an Event",
+  			"href": {
+  				"url": "http://sfvm.la/add-event/",
+  				"view": "web"
+  			}
+  		}
+  	},
     "background": {
       "type": "html",
       "url": "http://sfvm.la",
