@@ -2,7 +2,7 @@
   "body": {
     "background": {
       "type": "html",
-      "url": "https://www.google.com",
+      "url": "http://sfvm.la",
       "action": {
         "type": "$default"
       }
