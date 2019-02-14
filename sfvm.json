@@ -1,0 +1,11 @@
+{
+  "body": {
+    "background": {
+      "type": "html",
+      "url": "https://www.google.com",
+      "action": {
+        "type": "$default"
+      }
+    }
+  }
+}
