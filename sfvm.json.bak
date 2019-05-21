@@ -1,0 +1,31 @@
+{
+  "$jason": {
+    "head": {
+      "title": "SFVM",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+  "body": {
+  	"header": {
+  		"title": "SFVM",
+  		"menu": {
+  			"text": "Submit an Event",
+  			"href": {
+  				"url": "http://sfvm.la/add-event/",
+  				"view": "web"
+  			}
+  		}
+  	},
+    "background": {
+      "type": "html",
+      "url": "http://sfvm.la",
+      "action": {
+        "type": "$default"
+      }
+    }
+  }
+  }
+}
