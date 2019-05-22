@@ -10,7 +10,7 @@
                     "type": "$set",
                     "options": {
                         "url": [{
-                            "{{#if $params && 'url' in $params}}": "{{$params.url}}?mobile-app-view=true"
+                            "{{#if $params && 'url' in $params && 'sfvm.la' in $params.url}}": "{{$params.url}}?mobile-app-view=true"
                         }, {
                             "{{#else}}": "http://sfvm.la?mobile-app-view=true"
                         }]
